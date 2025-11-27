@@ -1,0 +1,435 @@
+💼 Java Interview Questions — Basic Concepts
+🟩 1. Introduction & Basics
+
+What is Java?
+
+What are the main features of Java?
+
+Why is Java called platform independent?
+
+What is JVM, JRE, and JDK?
+
+What is bytecode?
+
+What is the difference between compiler and interpreter?
+
+Why is Java called an object-oriented programming language?
+
+What are identifiers in Java?
+
+What are keywords in Java?
+
+What is the difference between JDK, JRE, and JVM?
+
+🟦 2. Data Types & Variables
+
+What are data types in Java?
+
+What is the default value of int, float, boolean, and char?
+
+What are local, instance, and static variables?
+
+What is the difference between static and non-static variables?
+
+What is type casting in Java?
+
+What is the difference between widening and narrowing conversion?
+
+🟨 3. Operators & Expressions
+
+What are the different types of operators in Java?
+
+What is the difference between == and equals()?
+
+What is the difference between && and &?
+
+What is a ternary operator? Give an example.
+
+What is the difference between pre-increment and post-increment operators?
+
+🟪 4. Control Statements
+
+What are control statements in Java?
+
+Explain if, if-else, and nested if statements.
+
+What is the use of switch statement?
+
+Difference between while and do-while loop.
+
+What is a for loop?
+
+What are break and continue statements?
+
+🟧 5. OOPs Concepts
+
+What is a class?
+
+What is an object?
+
+What is the difference between class and object?
+
+What is inheritance?
+
+What are types of inheritance in Java?
+
+What is polymorphism?
+
+What is method overloading and overriding?
+
+What is encapsulation?
+
+What is abstraction?
+
+What is the difference between abstract class and interface?
+
+Can we create an object of an abstract class?
+
+What is constructor?
+
+What is the difference between constructor and method?
+
+🟥 6. Arrays & Strings
+
+What is an array in Java?
+
+How to declare and initialize an array?
+
+What is the default value of an array element?
+
+What is the difference between one-dimensional and multi-dimensional arrays?
+
+What is a string in Java?
+
+Difference between String, StringBuilder, and StringBuffer.
+
+🟫 7. Exception Handling
+
+What is exception handling?
+
+What are the types of exceptions in Java?
+
+What is the difference between checked and unchecked exceptions?
+
+What is the use of try, catch, finally?
+
+What is the purpose of throw and throws keywords?
+
+⚙️ 8. Miscellaneous / Important Topics
+
+What is the use of this keyword?
+
+What is the use of super keyword?
+
+What is static method?
+
+Can we override static methods?
+
+What is the difference between final, finally, and finalize()?
+
+What is a package in Java?
+
+What is the difference between import java.util.*; and import java.util.Scanner;?
+
+What are access modifiers in Java?
+
+What is garbage collection?
+
+⭐ Bonus Tips
+
+Practice writing small programs (sum of numbers, palindrome, Fibonacci, factorial).
+
+Revise OOPs — it’s the most important section.
+
+Learn the difference between compile-time and runtime errors.
+
+Would you like me to also give answers (short notes) for these 60 basic questions — like a ready-to-read interview sheet?
+
+You said:
+yes
+ChatGPT said:
+
+Perfect 👍
+Here’s your Java Interview Questions with Short Answers (Basic Concepts) — a complete quick-revision sheet 📘
+
+💼 Java Interview Q&A for Beginners
+🟩 1. Introduction & Basics
+
+1. What is Java?
+Java is a high-level, object-oriented, platform-independent programming language developed by Sun Microsystems in 1995.
+
+2. Features of Java:
+Simple, Object-Oriented, Platform-Independent, Secure, Robust, Portable, Multithreaded.
+
+3. Why is Java platform independent?
+Because Java code is compiled into bytecode, which runs on the JVM (Java Virtual Machine) on any platform.
+
+4. What is JVM, JRE, and JDK?
+
+JVM: Executes Java bytecode.
+
+JRE: JVM + Libraries → runs Java programs.
+
+JDK: JRE + Development tools → to develop Java programs.
+
+5. What is bytecode?
+Intermediate code generated after compilation of a Java program; executed by the JVM.
+
+6. Compiler vs Interpreter:
+
+Compiler translates the whole code at once.
+
+Interpreter executes line-by-line.
+(Java uses both.)
+
+7. Why is Java called OOP?
+Because it uses classes, objects, inheritance, polymorphism, etc.
+
+8. What are identifiers?
+Names given to variables, classes, methods, etc.
+
+9. What are keywords?
+Reserved words in Java (e.g. class, int, if, static).
+
+10. Difference between JDK, JRE, JVM:
+
+Term	Function
+JVM	Executes code
+JRE	Runs code
+JDK	Develops code
+🟦 2. Data Types & Variables
+
+11. Data types in Java:
+
+Primitive: byte, short, int, long, float, double, char, boolean
+
+Non-Primitive: String, Arrays, Classes
+
+12. Default values:
+int=0, float=0.0, boolean=false, char=‘\u0000’
+
+13. Types of variables:
+Local, Instance, Static.
+
+14. Static vs Non-Static:
+Static belongs to class; non-static belongs to object.
+
+15. Type casting:
+Converting one data type to another.
+Example:
+
+int a = 10;
+double b = a; // widening
+
+
+16. Widening vs Narrowing:
+
+Widening: smaller → larger type (automatic)
+
+Narrowing: larger → smaller type (manual)
+
+🟨 3. Operators & Expressions
+
+17. Types of operators:
+Arithmetic, Relational, Logical, Assignment, Bitwise, Unary, Ternary.
+
+18. Difference between == and equals():
+
+== compares references.
+
+equals() compares values.
+
+19. Difference between && and &:
+
+&& → short-circuit AND
+
+& → bitwise AND
+
+20. Ternary operator:
+condition ? value_if_true : value_if_false
+
+21. Pre vs Post Increment:
+
+++a increases first.
+
+a++ increases after use.
+
+🟪 4. Control Statements
+
+22. Control statements:
+if, if-else, switch, for, while, do-while, break, continue.
+
+23. If-else examples:
+
+if(a>0)
+  System.out.println("Positive");
+else
+  System.out.println("Negative");
+
+
+24. Switch statement:
+Used to test multiple conditions.
+
+switch(day) {
+ case 1: System.out.println("Monday"); break;
+ default: System.out.println("Invalid");
+}
+
+
+25. while vs do-while:
+while checks before; do-while checks after execution.
+
+26. For loop:
+Used when number of iterations is known.
+
+for(int i=1;i<=5;i++)
+  System.out.println(i);
+
+
+27. break vs continue:
+
+break → exits loop
+
+continue → skips current iteration
+
+🟧 5. OOPs Concepts
+
+28. Class:
+Blueprint for creating objects.
+
+29. Object:
+Instance of a class containing data and behavior.
+
+30. Class vs Object:
+Class = design; Object = real entity.
+
+31. Inheritance:
+Process where one class acquires properties of another using extends.
+
+32. Types of inheritance in Java:
+Single, Multilevel, Hierarchical (not multiple via classes).
+
+33. Polymorphism:
+Same function name with different behaviors.
+
+34. Method overloading vs overriding:
+
+Overloading → same name, different parameters (compile-time).
+
+Overriding → same name, same parameters in subclass (run-time).
+
+35. Encapsulation:
+Wrapping data & code together (using private variables + getters/setters).
+
+36. Abstraction:
+Hiding implementation details; showing only essential info.
+
+37. Abstract class vs Interface:
+
+Abstract Class	Interface
+Can have concrete & abstract methods	Only abstract methods (Java 7)
+Uses extends	Uses implements
+
+38. Can we create object of abstract class?
+No.
+
+39. Constructor:
+Used to initialize objects; same name as class.
+
+40. Constructor vs Method:
+
+Constructor	Method
+No return type	Has return type
+Called automatically	Called manually
+🟥 6. Arrays & Strings
+
+41. Array:
+Collection of similar type elements.
+
+42. Declaration & Initialization:
+
+int arr[] = {1,2,3,4,5};
+
+
+43. Default array value:
+Numeric = 0, Boolean = false, Object = null.
+
+44. One-D vs Multi-D:
+One row vs multiple rows (2D array = matrix).
+
+45. String:
+Sequence of characters enclosed in double quotes.
+
+46. String vs StringBuilder vs StringBuffer:
+
+Class	Mutability	Thread Safe
+String	Immutable	Yes
+StringBuilder	Mutable	No
+StringBuffer	Mutable	Yes
+🟫 7. Exception Handling
+
+47. Exception Handling:
+Mechanism to handle runtime errors.
+
+48. Types:
+Checked (compile-time) and Unchecked (runtime).
+
+49. Checked vs Unchecked:
+
+Checked → must be handled (IOException).
+
+Unchecked → optional (ArithmeticException).
+
+50. try-catch-finally:
+Used to handle exceptions safely.
+
+try {
+ int a = 10/0;
+} catch(Exception e) {
+ System.out.println(e);
+} finally {
+ System.out.println("Always runs");
+}
+
+
+51. throw vs throws:
+
+throw → used to throw an exception manually.
+
+throws → declares exceptions.
+
+⚙️ 8. Miscellaneous
+
+52. this keyword:
+Refers to current object.
+
+53. super keyword:
+Refers to parent class variable or method.
+
+54. static method:
+Belongs to class, not object.
+
+55. Can we override static methods?
+No.
+
+56. final, finally, finalize():
+
+Keyword	Use
+final	constant/prevent inheritance
+finally	cleanup block
+finalize()	called before garbage collection
+
+57. Package:
+Group of related classes.
+
+58. import statements:
+
+import java.util.*; → imports all classes.
+
+import java.util.Scanner; → imports only Scanner.
+
+59. Access Modifiers:
+public, private, protected, default.
+
+60. Garbage Collection:
+Automatic memory management done by JVM.

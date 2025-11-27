@@ -1,0 +1,7 @@
+Arrange all numbers of your array in ascending/descending order?
+
+find out average of all elements in array?
+
+copy data of one array to another?
+
+search element in an array?

@@ -1,0 +1,7 @@
+array-
+
+ds which allows store data of similar type
+array having fixed size
+array elements get stored on contigious memory location
+java array is object 
+array 

@@ -11,10 +11,7 @@ class StringTool {
         this.sentence = sentence;
     }
 
-  
     class Analyzer {
-
-       
         int countVowels() {
             int count = 0;
             for (int i = 0; i < sentence.length(); i++) {
@@ -26,7 +23,6 @@ class StringTool {
             return count;
         }
 
-
         int countWords() {
             if (sentence.trim().isEmpty()) {
                 return 0;
@@ -34,7 +30,6 @@ class StringTool {
             String words[] = sentence.trim().split("\\s+");
             return words.length;
         }
-
 
         String reverse() {
             String rev = "";
@@ -44,7 +39,6 @@ class StringTool {
             return rev;
         }
     }
-
    
     public static void main(String[] args)
  {

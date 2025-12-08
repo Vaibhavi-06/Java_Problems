@@ -1,6 +1,4 @@
-/*PROBLEM 2: ARRAY OPERATIONS MENU 
-(Loops + Arrays + Exception Handling)*/
-
+//PROBLEM 2: ARRAY OPERATIONS MENU (Loops + Arrays + Exception Handling)
 
 import java.util.Scanner;
 
